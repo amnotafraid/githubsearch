@@ -4,6 +4,8 @@ Once the dependencies are installed, you can start the application by typing:
 ```
 npm start
 ```
+It will automatically open up a browser window to [localhost:3000](http://localhost:3000/).
+
 So, all I did was add a service and inject HttpModule.  I suspect that `import 'rxjs/add/operator/map'` in services\github.service.ts may no longer be necessary with the latest Angular.  The directory structure in src/app looks like this:
 ```
 .
