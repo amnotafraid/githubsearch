@@ -1,4 +1,4 @@
-# Githubsearch - Add Github Services
+# Githubsearch - Display User Profile Data
 
 Once the dependencies are installed, you can start the application by typing:
 ```
@@ -6,7 +6,7 @@ npm start
 ```
 It will automatically open up a browser window to [localhost:3000](http://localhost:3000/).
 
-So, all I did was add a service and inject HttpModule.  I suspect that `import 'rxjs/add/operator/map'` in services\github.service.ts may no longer be necessary with the latest Angular.  The directory structure in src/app looks like this:
+Mostly this had to do with adding bootstrap and showing data on components/profile.component.html.  The structure looks like this:
 ```
 .
 |-- app.component.js
