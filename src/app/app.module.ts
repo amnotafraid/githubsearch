@@ -1,5 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { HttpModule }    from '@angular/http';
 
 // components
@@ -9,6 +10,7 @@ import { ProfileComponent }  from './components/profile.component';
 @NgModule({
   imports:      [ 
                   BrowserModule, 
+                  FormsModule,
                   HttpModule 
                 ],
   declarations: [ 

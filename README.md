@@ -6,7 +6,9 @@ npm start
 ```
 It will automatically open up a browser window to [localhost:3000](http://localhost:3000/).
 
-Mostly this had to do with adding bootstrap and showing data on components/profile.component.html.  The structure looks like this:
+The first thing I had to do was to change `repose` to `repos` in app/components/profile.component.ts.
+
+In the profile component an input was added.  There is a function to call on keyup which will search for a github user name.
 ```
 .
 |-- app.component.js
